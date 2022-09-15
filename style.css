@@ -1,0 +1,77 @@
+html {
+    font: 112.5%/1.700 -apple-system,'BlinkMacSystemFont','Segoe UI','Roboto','Helvetica','Arial',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';
+    background: rgb(32, 45, 50);
+}
+
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+a:hover {
+    cursor: pointer;
+    color: #cdcabe;
+}
+
+.information {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(32, 35, 41);
+}
+
+.information__table {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.information__table-items {
+    display: flex;
+    width: 600px;
+    height: 220px;
+    background: rgb(86, 89, 130);
+    border-radius: 15px;
+    margin: 20px;
+}
+
+.information__table-item-logo {
+    display: flex;
+
+}
+
+.information__table-item-logo img {
+    height: 100%;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.information__table-item {
+    display: flex;
+    padding-left: 25px;
+    padding-top: 10px;
+    color: rgb(255, 255, 255);
+    flex-direction: column;
+
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+.location {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+.appearance {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
